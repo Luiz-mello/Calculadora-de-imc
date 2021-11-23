@@ -1,0 +1,68 @@
+body {
+ background-image: url("dinehiro.jfif");
+} 
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+ 
+   
+  
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px #1510a5;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .input input {
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    outline: 0;
+    font: bold 0.9rem bold;
+    text-align: center;
+  }
+  
+   button{
+    width:150px;
+    height: 40px;
+    font: bold 1.2rem bold;
+    background: #fcf6f6;
+    color: rgb(11, 11, 11);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: justify;
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    font: normal 1.0rem bold;
+    box-shadow: 0px 0px 10px black;
+  
+  
+  }
+  footer { 
+    font: normal 0.7rem bold;
+    text-align: center;
+  }
